@@ -1,0 +1,266 @@
+/* Font selection */
+
+html, body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* General Formatting for Website */
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.background-grey {
+    background-color: #F2F3F4;
+}
+
+.background-darkGrey {
+    background-color: #27282b;
+}
+
+.background-img {
+    background-image: url('../img/contactme.JPG');
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: #4D70B1;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight:bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #4D70B1;
+}
+
+.container {
+    padding: 60px 140px;
+}
+
+/* Navbar */
+.navbar-nav > li > a, .navbar-brand, #navbar {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  min-height: 50px;
+}
+
+.navbar-toggle {
+  float: none;
+  margin: 0 auto;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    border-color: rgba(0,0,0,0.2);
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-inverse li {
+    font-color: #FFFFFF;
+}
+
+/* Landing Page */
+
+header {
+	background-image: url('../img/sunsetEdit.JPG');
+    background-size: cover;
+	height: 100vh;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 84px;
+    border-bottom:3px solid #FFFFFF;
+    padding-bottom:30px;
+}
+
+header h2 {
+	font-size: 40px;
+    text-align: center;
+}
+
+/* About Me */
+#aboutMe {
+    padding: 50px 60px;
+}
+
+.center-link {
+    text-align: center;
+}
+
+/* Skills */
+
+#skills li {
+    font-size: 18px;
+}
+
+.skill-rating {
+    float: right;
+    /* pink */
+/*     color:  #FFA6C9; */
+    /* blue */
+    color: #4D70B1;
+}
+
+.skill-title {
+    font-weight: bold;
+}
+
+/* Projects */
+
+#projects h2 {
+    margin-bottom: 30px;
+}
+
+#outer-caption {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Hover Effect for Projects */
+.caption {
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0);
+}
+.caption__media {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    transform: translateY(100%);
+    transition: transform .35s ease-out;
+}
+.caption:hover .caption__overlay {
+    transform: translateY(0);
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+.caption:hover::before {
+    background: rgba(0, 0, 0, .7);
+}
+
+/* Isotope for Projects */
+ 
+.isotopeFilters a:visited, a:active, a:focus {
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+/* Contact */
+#contact, #contact a {
+    color: #FFFFFF;
+}
+
+/* typed.js Cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* CSS code for smaller screens (ie. phone) */
+@media (max-width: 767px) {
+    .container {
+        padding: 60px 20px;
+    }
+
+    #aboutMe {
+        padding: 60px 20px;
+    }
+}
+
+}
