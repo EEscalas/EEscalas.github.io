@@ -252,6 +252,11 @@ header h2 {
     100% { opacity:1; }
 }
 
+/* whoIam */
+.whoIAm {
+    color: black;
+}
+
 /* CSS code for smaller screens (ie. phone) */
 @media (max-width: 767px) {
     .container {
