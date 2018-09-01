@@ -1,11 +1,11 @@
 /* Font selection */
 
 html, body {
-	font-family: 'Helvetica', sans-serif;
+    font-family: 'Palatino Linotypea', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Palatino Linotype', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 /* General Formatting for Website */
@@ -110,6 +110,7 @@ h1 {
 header h2 {
 	font-size: 40px;
     text-align: center;
+    padding-bottom: 18%;
 }
 
 /* About Me */
