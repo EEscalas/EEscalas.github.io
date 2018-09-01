@@ -1,11 +1,11 @@
 /* Font selection */
 
 html, body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Palatino Linotype', sans-serif;
 }
 
 /* General Formatting for Website */
@@ -75,9 +75,9 @@ a {
 }
 
 .navbar {
-    background-color: rgba(0,0,0,0.2);
-    background: rgba(0,0,0,0.2);
-    border-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0);
+    background: rgba(0,0,0);
+    border-color: rgba(0,0,0);
 }
 
 .navbar .navbar-collapse {
