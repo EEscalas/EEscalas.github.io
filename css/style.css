@@ -10,6 +10,10 @@ h1, h2, h3 {
 
 /* General Formatting for Website */
 
+.no-subheaders {
+    padding-bottom: 5%;
+}
+
 .background-white {
     background-color: #ffffff;
 }
@@ -91,7 +95,7 @@ a {
 /* Landing Page */
 
 header {
-	background-image: url('../img/background-image.jpg');
+	background-image: url('../img/background-keyboard.jpg');
     background-size: cover;
 	height: 100vh;
 	color: #000000;
@@ -99,19 +103,17 @@ header {
 	flex-direction: column;
 	justify-content: center;
     align-items: center;
-    padding-right: 28%;
-
+    padding-top: 10%;
 }
 
 h1 {
-	font-size: 84px;
+    font-size: 84px;
     border-bottom:3px solid #000000;
-    padding-bottom:30px;
     text-align: center;
 }
 
 header h2 {
-	font-size: 40px;
+    font-size: 40px;
     text-align: center;
     padding-bottom: 18%;
 }
