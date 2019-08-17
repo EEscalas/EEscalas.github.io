@@ -272,6 +272,7 @@ header h2 {
 /* Contact */
 #contact, #contact a {
     color: #FFFFFF;
+    text-decoration: none
 }
 
 /* typed.js Cursor */
