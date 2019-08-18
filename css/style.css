@@ -50,6 +50,12 @@ h4 {
     font-weight:bold;
 }
 
+h5 {
+    font-size: 30px;
+    text-align: center;
+    color: #3284bf;
+}
+
 p {
     font-size: 16px;
 }
@@ -60,6 +66,10 @@ a {
 
 .container {
     padding: 60px 140px;
+}
+
+#highlight-container {
+    padding-top: 0%;
 }
 
 /* Navbar */
@@ -177,20 +187,22 @@ header h2 {
     padding-bottom: 2%;
     background-color: #000000;
 }
-.picture-row {
-    display: table;
-    border-collapse: collapse;
-    width: 100%;
-  }
-.column {
-    display: table-cell;
-    vertical-align: top;
+
+.article-title-right {
+    padding-top: 20%;
+    padding-left: 5%;
 }
-.column img {
-    display: block;
+
+.article-title-left {
+    padding-bottom: 5%;
+}
+
+.titles-row img {
     width: 100%;
-    height: auto;
-    padding: 10%;
+}
+
+.titles-row {
+    padding-top: 0%;
 }
 
 /* Skills */
