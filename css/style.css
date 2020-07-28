@@ -6,6 +6,7 @@ html, body {
 
 h1, h2, h3 {
     font-family: 'Helvetica', sans-serif;
+    text-align: center;
 }
 
 /* General Formatting for Website */
@@ -43,6 +44,10 @@ h2 {
 h3 {
     margin-bottom: 20px;
     color: #3284bf;
+}
+
+.left-blue-header{
+    text-align: left;
 }
 
 h4 {
@@ -159,6 +164,15 @@ header h2 {
 
 #right_quote {
 
+}
+
+/* Lists */
+
+ul {
+    padding-left: 1.5em;
+}
+li {
+    padding-left: 1em;
 }
 
 /* Highlights */
@@ -346,6 +360,4 @@ header h2 {
     #aboutMe {
         padding: 60px 20px;
     }
-}
-
 }
