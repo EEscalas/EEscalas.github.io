@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- my CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -305,8 +307,8 @@
             </div>
             <div>
             <br>
-            <h3>Awards and Honors</h3>
-                <div class="row">
+            <h3 id="award-engineering"> Awards and Honors</h3>
+                <div id="award-ghc" class="row">
                     <div class="col-md-4">
                         <h4>UCLA School of Engineering</h4>
                         <p><span class="glyphicon glyphicon-time"></span> 2020</p>
@@ -320,7 +322,7 @@
                         </h4>
                     </div>
             </div>
-                <div class="row">
+                <div id="award-athletic-dept" class="row">
                         <div class="col-md-4">
                             <h4>Facebook</h4>
                             <p><span class="glyphicon glyphicon-time"></span> 2019</p>
@@ -330,7 +332,7 @@
                             <p>One of 50 students selected to receive a scholarship to attend the Grace Hopper Conference for Women in Technology.</p>
                         </div>
                 </div>
-                <div class="row">
+                <div id="award-pac-12" class="row">
                         <div class="col-md-4">
                             <h4>UCLA Athletic Department</h4>
                             <p><span class="glyphicon glyphicon-time"></span> 2019 </p>
@@ -344,7 +346,7 @@
                             </h4>
                         </div>
                 </div>
-                <div class="row">
+                <div id="award-swim-and-dive" class="row">
                         <div class="col-md-4">
                             <h4>PAC-12 Conference</h4>
                             <p><span class="glyphicon glyphicon-time"></span> 2019 </p>
@@ -376,9 +378,9 @@
                 </div>
                 <div>
                 <br>
-                <h3 id="activities">Extra Curricular Activities</h3>
+                <h3 id="icpc">Extra Curricular Activities</h3>
                 
-                <div class="row" id="icpc">
+                <div class="row">
                     <div class="col-md-4">
                         <h4>ACM ICPC at UCLA</h4>
                         <p>Competitive Programming Club</p>
@@ -402,11 +404,11 @@
                             <li>Organized and planned CodeSprintLA, a beginner-friendly competitive programming competition. Opened the virtual event to participants outside of UCLA to promote competitive programming.</li>
                             <li>Started a UCLA ACM weekly virtual book club during the Pandemic to help foster a sense of community while reading and discussing Carol Dweck’s Growth Mindset.</li>
                             <li>Helped organize and plan UCLA ACM Onboarding Day in which I presented to 80+ incoming and returning ACM Officers on Implicit Bias and the effects of Microaggressions on minorities in the STEM community.</li>
-                            <li>Hosted free mock technical interview phone screens for students via CoderPad  during the Pandemic to help students have a gentle introduction to technical interviews by interviewing with a peer with questions pertaining to topics learned in school.</li>
+                            <li id="learning-assistant">Hosted free mock technical interview phone screens for students via CoderPad  during the Pandemic to help students have a gentle introduction to technical interviews by interviewing with a peer with questions pertaining to topics learned in school.</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row" id="learning-assistant">
+                <div class="row">
                     <div class="col-md-4">
                         <h4>UCLA Learning Assistant Program</h4>
                         <p> <span class="glyphicon glyphicon-map-marker"> </span> Los Angeles, CA</p>
@@ -424,7 +426,7 @@
                     <div class="col-md-4">
     
                     </div>
-                    <div class="col-md-8">
+                    <div id="swim" class="col-md-8">
                         <h4>Pedagogy Head Learning Assistant (CS 32)</h4>
                         <ul>
                             <li>Worked as a learning assistant for the course as well as a leader for other learning assistants in the course.</li>
@@ -433,13 +435,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row" id="swim">
+                <div class="row">
                     <div class="col-md-4">
                         <h4>UCLA Swimming</h4>
                         <p> <span class="glyphicon glyphicon-map-marker"> </span> Los Angeles, CA</p>
                         <p><span class="glyphicon glyphicon-time"></span> May 2018 - June 2019 </p>
                     </div>
-                    <div class="col-md-8">
+                    <div id="bac" class="col-md-8">
                         <h4>UCLA Varsity Women's Swimming Co-Captain</h4>
                         <ul>
                             <li>Organized team building activities during preseason training for more than 40 athletes. </li>
@@ -448,7 +450,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row" id="bac">
+                <div id="acm-w" class="row">
                     <div class="col-md-4">
                         <h4>Bruin Athletic Council</h4>
                         <p> <span class="glyphicon glyphicon-map-marker"> </span> Los Angeles, CA</p>
@@ -483,7 +485,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row" id="acm-w">
+                <div class="row">
                     <div class="col-md-4">
                         <h4>UCLA ACM-W</h4>
                         <p> <span class="glyphicon glyphicon-map-marker"> </span> Los Angeles, CA</p>
@@ -513,15 +515,13 @@
                     <a href="mailto:elenaescalas@g.ucla.edu">
                         <span class="glyphicon glyphicon-envelope"></span>
                     </a>
-                    <a href="https://www.github.com/eescalas" target="_blank">
-                        <span class="socicon-github"></span>
+                    <a href="https://www.linkedin.com/in/elenaescalas">
+                        <span class="fa fa-linkedin"></span>
                     </a>
                     <a href="Tel:615-554-2280">
                         <span class="glyphicon glyphicon-earphone"></span>
                     </a>
-                    <a href="https://www.linkedin.com/in/elenaescalas" target="_blank">
-                        <span class="socicon-linkedin"></span>
-                    </a>
+                  
                 </h2>
             </div>
         </div>
