@@ -2,7 +2,7 @@
 
 $(function(){
     $('.whoIAm').typed({
-        strings: ["Noogler", "Software Engineer", "Student-Athlete"],
+        strings: ["Software Engineer", "Technical Communicator", "former student-athlete", "Overly Enthusiastic YouTube Music User", "Podcast Fan"],
         typeSpeed: 40,
         startDelay:800, 
         backDelay: 1000,
